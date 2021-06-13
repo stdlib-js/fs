@@ -21,7 +21,7 @@
 // MODULES //
 
 var logger = require( 'debug' );
-var readFile = require( '@stdlib/fs/read-file' ).sync;
+var readFile = require( './../../read-file' ).sync;
 var isStringArray = require( '@stdlib/assert/is-string-array' ).primitives;
 
 

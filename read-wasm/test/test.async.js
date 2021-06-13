@@ -23,7 +23,7 @@
 var join = require( 'path' ).join;
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
-var readFileSync = require( '@stdlib/fs/read-file' ).sync;
+var readFileSync = require( './../../read-file' ).sync;
 var IS_BROWSER = require( '@stdlib/assert/is-browser' );
 var isUint8Array = require( '@stdlib/assert/is-uint8array' );
 var noop = require( '@stdlib/utils/noop' );

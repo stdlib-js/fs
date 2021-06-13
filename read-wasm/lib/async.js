@@ -23,7 +23,7 @@
 var isObject = require( '@stdlib/assert/is-plain-object' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var isUint8Array = require( '@stdlib/assert/is-uint8array' );
-var readFile = require( '@stdlib/fs/read-file' );
+var readFile = require( './../../read-file' );
 var Uint8Array = require( '@stdlib/array/uint8' );
 
 

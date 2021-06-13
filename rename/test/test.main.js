@@ -22,10 +22,10 @@
 
 var join = require( 'path' ).join;
 var tape = require( 'tape' );
-var readFile = require( '@stdlib/fs/read-file' ).sync;
-var writeFileSync = require( '@stdlib/fs/write-file' ).sync;
-var existsSync = require( '@stdlib/fs/exists' ).sync;
-var unlinkSync = require( '@stdlib/fs/unlink' ).sync;
+var readFile = require( './../../read-file' ).sync;
+var writeFileSync = require( './../../write-file' ).sync;
+var existsSync = require( './../../exists' ).sync;
+var unlinkSync = require( './../../unlink' ).sync;
 var IS_BROWSER = require( '@stdlib/assert/is-browser' );
 var rename = require( './../lib/main.js' );
 

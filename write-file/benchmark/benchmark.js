@@ -22,7 +22,7 @@
 
 var join = require( 'path' ).join;
 var bench = require( '@stdlib/bench' );
-var readFile = require( '@stdlib/fs/read-file' ).sync;
+var readFile = require( './../../read-file' ).sync;
 var pkg = require( './../package.json' ).name;
 var writeFile = require( './../lib' );
 

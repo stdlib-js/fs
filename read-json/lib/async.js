@@ -23,7 +23,7 @@
 var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
 var isObject = require( '@stdlib/assert/is-plain-object' );
 var isFunction = require( '@stdlib/assert/is-function' );
-var readFile = require( '@stdlib/fs/read-file' );
+var readFile = require( './../../read-file' );
 var removeBOM = require( '@stdlib/string/remove-utf8-bom' );
 var parseJSON = require( '@stdlib/utils/parse-json' );
 var instanceOf = require( '@stdlib/assert/instance-of' );

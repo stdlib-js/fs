@@ -26,7 +26,7 @@ var proxyquire = require( 'proxyquire' );
 var IS_BROWSER = require( '@stdlib/assert/is-browser' );
 var instanceOf = require( '@stdlib/assert/instance-of' );
 var isUint8Array = require( '@stdlib/assert/is-uint8array' );
-var readFileSync = require( '@stdlib/fs/read-file' ).sync;
+var readFileSync = require( './../../read-file' ).sync;
 var Uint8Array = require( '@stdlib/array/uint8' );
 var readWASM = require( './../lib/sync.js' );
 

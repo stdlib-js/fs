@@ -18,7 +18,7 @@
 
 'use strict';
 
-var closeSync = require( '@stdlib/fs/close' ).sync;
+var closeSync = require( './../../close' ).sync;
 var isError = require( '@stdlib/assert/is-error' );
 var open = require( './../lib' ); // eslint-disable-line stdlib/no-redeclare
 

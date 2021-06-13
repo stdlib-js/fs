@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var IS_BROWSER = require( '@stdlib/assert/is-browser' );
 var isNonNegativeInteger = require( '@stdlib/assert/is-nonnegative-integer' ).isPrimitive;
-var closeSync = require( '@stdlib/fs/close' ).sync;
+var closeSync = require( './../../close' ).sync;
 var open = require( './../lib/sync.js' ); // eslint-disable-line stdlib/no-redeclare
 
 

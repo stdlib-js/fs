@@ -22,7 +22,7 @@
 
 var join = require( 'path' ).join;
 var tape = require( 'tape' );
-var readFile = require( '@stdlib/fs/read-file' ).sync;
+var readFile = require( './../../read-file' ).sync;
 var IS_BROWSER = require( '@stdlib/assert/is-browser' );
 var string2buffer = require( '@stdlib/buffer/from-string' );
 var writeFile = require( './../lib/sync.js' );

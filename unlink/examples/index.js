@@ -19,9 +19,9 @@
 'use strict';
 
 var join = require( 'path' ).join;
-var readFile = require( '@stdlib/fs/read-file' ).sync;
-var writeFile = require( '@stdlib/fs/write-file' ).sync;
-var exists = require( '@stdlib/fs/exists' ).sync;
+var readFile = require( './../../read-file' ).sync;
+var writeFile = require( './../../write-file' ).sync;
+var exists = require( './../../exists' ).sync;
 var unlink = require( './../lib' ).sync;
 
 var src = join( __dirname, 'fixtures', 'file.txt' );

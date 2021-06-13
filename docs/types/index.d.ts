@@ -21,18 +21,18 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import close = require( '@stdlib/fs/close' );
-import exists = require( '@stdlib/fs/exists' );
-import open = require( '@stdlib/fs/open' );
-import readDir = require( '@stdlib/fs/read-dir' );
-import readFile = require( '@stdlib/fs/read-file' );
-import readFileList = require( '@stdlib/fs/read-file-list' );
-import readJSON = require( '@stdlib/fs/read-json' );
-import readWASM = require( '@stdlib/fs/read-wasm' );
-import rename = require( '@stdlib/fs/rename' );
-import resolveParentPath = require( '@stdlib/fs/resolve-parent-path' );
-import unlink = require( '@stdlib/fs/unlink' );
-import writeFile = require( '@stdlib/fs/write-file' );
+import close = require( './../../close' );
+import exists = require( './../../exists' );
+import open = require( './../../open' );
+import readDir = require( './../../read-dir' );
+import readFile = require( './../../read-file' );
+import readFileList = require( './../../read-file-list' );
+import readJSON = require( './../../read-json' );
+import readWASM = require( './../../read-wasm' );
+import rename = require( './../../rename' );
+import resolveParentPath = require( './../../resolve-parent-path' );
+import unlink = require( './../../unlink' );
+import writeFile = require( './../../write-file' );
 
 /**
 * Interface describing the `fs` namespace.

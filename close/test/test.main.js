@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var IS_BROWSER = require( '@stdlib/assert/is-browser' );
-var openSync = require( '@stdlib/fs/open' ).sync;
+var openSync = require( './../../open' ).sync;
 var noop = require( '@stdlib/utils/noop' );
 var close = require( './../lib/main.js' ); // eslint-disable-line stdlib/no-redeclare
 

@@ -23,7 +23,7 @@
 var resolve = require( 'path' ).resolve;
 var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
 var cwd = require( '@stdlib/process/cwd' );
-var exists = require( '@stdlib/fs/exists' ).sync;
+var exists = require( './../../exists' ).sync;
 var validate = require( './validate.js' );
 
 

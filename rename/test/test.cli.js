@@ -28,10 +28,10 @@ var IS_BROWSER = require( '@stdlib/assert/is-browser' );
 var IS_WINDOWS = require( '@stdlib/assert/is-windows' );
 var EXEC_PATH = require( '@stdlib/process/exec-path' );
 var replace = require( '@stdlib/string/replace' );
-var readFileSync = require( '@stdlib/fs/read-file' ).sync;
-var writeFileSync = require( '@stdlib/fs/write-file' ).sync;
-var existsSync = require( '@stdlib/fs/exists' ).sync;
-var unlinkSync = require( '@stdlib/fs/unlink' ).sync;
+var readFileSync = require( './../../read-file' ).sync;
+var writeFileSync = require( './../../write-file' ).sync;
+var existsSync = require( './../../exists' ).sync;
+var unlinkSync = require( './../../unlink' ).sync;
 
 
 // VARIABLES //

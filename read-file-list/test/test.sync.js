@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var IS_BROWSER = require( '@stdlib/assert/is-browser' );
-var readFile = require( '@stdlib/fs/read-file' ).sync;
+var readFile = require( './../../read-file' ).sync;
 var readFileList = require( './../lib/sync.js' );
 
 

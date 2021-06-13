@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var IS_BROWSER = require( '@stdlib/assert/is-browser' );
-var readFile = require( '@stdlib/fs/read-file' ).sync;
+var readFile = require( './../../read-file' ).sync;
 var noop = require( '@stdlib/utils/noop' );
 var readFileList = require( './../lib/async.js' );
 

@@ -23,7 +23,7 @@
 var isObject = require( '@stdlib/assert/is-plain-object' );
 var isUint8Array = require( '@stdlib/assert/is-uint8array' );
 var instanceOf = require( '@stdlib/assert/instance-of' );
-var readFileSync = require( '@stdlib/fs/read-file' ).sync;
+var readFileSync = require( './../../read-file' ).sync;
 var Uint8Array = require( '@stdlib/array/uint8' );
 
 
