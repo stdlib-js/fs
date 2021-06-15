@@ -258,7 +258,7 @@ tape( 'if the function encounters an error indicating too many files are open, t
 
 	count = 0;
 	readFileList = proxyquire( './../lib/async.js', {
-		'@stdlib/fs/read-file': read
+		'./../../read-file': read
 	});
 
 	expected = [
@@ -316,7 +316,7 @@ tape( 'if the function encounters an error indicating too many files are open, t
 
 tape( 'if the function exceeds the maximum number of retries, the function returns an error', opts, function test( t ) {
 	var readFileList = proxyquire( './../lib/async.js', {
-		'@stdlib/fs/read-file': read,
+		'./../../read-file': read,
 		'./config.json': {
 			'max_retries': 10,
 			'max_delay': 5
@@ -353,7 +353,7 @@ tape( 'the function returns the first encountered error', opts, function test( t
 	var list;
 
 	readFileList = proxyquire( './../lib/async.js', {
-		'@stdlib/fs/read-file': read
+		'./../../read-file': read
 	});
 	count = 0;
 
