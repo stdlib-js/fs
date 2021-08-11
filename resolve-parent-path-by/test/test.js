@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,30 +18,21 @@
 
 'use strict';
 
-var resolveParentPath = require( './../lib' );
+// MODULES //
 
-var opts = {
-	'dir': __dirname
-};
+var tape = require( 'tape' );
+var resolveParentPathBy = require( './../lib' );
 
-/* Sync */
 
-var out = resolveParentPath.sync( 'package.json', opts );
-console.log( out );
-// => '...'
+// TESTS //
 
-out = resolveParentPath.sync( 'non_existent_basename' );
-console.log( out );
-// => null
+tape( 'main export is a function', function test( t ) {
+	t.ok( true, __filename );
+	t.equal( typeof resolveParentPathBy, 'function', 'main export is a function' );
+	t.end();
+});
 
-/* Async */
-
-resolveParentPath( 'package.json', opts, onPath );
-resolveParentPath( './../non_existent_path', onPath );
-
-function onPath( error, path ) {
-	if ( error ) {
-		throw error;
-	}
-	console.log( path );
-}
+tape( 'attached to the main export is a function to resolve a parent path synchronously', function test( t ) {
+	t.equal( typeof resolveParentPathBy.sync, 'function', 'has `sync` method' );
+	t.end();
+});

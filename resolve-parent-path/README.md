@@ -75,7 +75,7 @@ Synchronously resolves a path by walking parent directories.
 
 ```javascript
 var path = resolveParentPath.sync( 'package.json' );
-console.log( path );
+// returns '...'
 ```
 
 The function accepts the same `options` as [`resolveParentPath()`](#resolve-parent-path).
@@ -104,16 +104,13 @@ The function accepts the same `options` as [`resolveParentPath()`](#resolve-pare
 ```javascript
 var resolveParentPath = require( '@stdlib/fs/resolve-parent-path' );
 
-var opts;
-var out;
-
-opts = {
+var opts = {
     'dir': __dirname
 };
 
 /* Sync */
 
-out = resolveParentPath.sync( 'package.json', opts );
+var out = resolveParentPath.sync( 'package.json', opts );
 // returns '...'
 
 out = resolveParentPath.sync( 'non_existent_basename' );
