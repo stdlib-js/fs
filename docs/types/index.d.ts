@@ -31,6 +31,7 @@ import readJSON = require( './../../read-json' );
 import readWASM = require( './../../read-wasm' );
 import rename = require( './../../rename' );
 import resolveParentPath = require( './../../resolve-parent-path' );
+import resolveParentPathBy = require( './../../resolve-parent-path-by' );
 import unlink = require( './../../unlink' );
 import writeFile = require( './../../write-file' );
 
@@ -333,6 +334,40 @@ interface Namespace {
 	* var path = ns.resolveParentPath.sync( 'package.json' );
 	*/
 	resolveParentPath: typeof resolveParentPath;
+
+	/**
+	* Asynchronously resolves a path according to a predicate function by walking parent directories.
+	*
+	* @param path - path to resolve
+	* @param options - function options
+	* @param options.dir - base directory
+	* @param predicate - predicate function
+	* @param clbk - callback to invoke after resolving a path
+	* @throws must provide valid options
+	*
+	* @example
+	* ns.resolveParentPathBy( 'package.json', predicate, onPath );
+	*
+	* function predicate( path, next ) {
+	*     next( null, true );
+	* }
+	*
+	* function onPath( error, path ) {
+	*     if ( error ) {
+	*         throw error;
+	*     }
+	*     console.log( path );
+	* }
+	*
+	* @example
+	* function predicate() {
+	*     return true;
+	* }
+	*
+	* var path = ns.resolveParentPathBy.sync( 'package.json', predicate );
+	* // e.g., returns '...'
+	*/
+	resolveParentPathBy: typeof resolveParentPathBy;
 
 	/**
 	* Asynchronously removes a directory entry.
