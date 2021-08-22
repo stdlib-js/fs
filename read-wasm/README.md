@@ -127,7 +127,7 @@ function onRead( error, wasm ) {
 
 <section class="links">
 
-[webassembly]: http://webassembly.org/
+[webassembly]: https://webassembly.org/
 
 [@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file
 
