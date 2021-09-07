@@ -206,8 +206,8 @@ $ read-dir ./../
 
 ## See Also
 
--   [`@stdlib/fs/exists`][@stdlib/fs/exists]: https://github.com/stdlib-js/fs/tree/main/exists`][@stdlib/fs/exists
--   [`@stdlib/fs/read-file`][@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file`][@stdlib/fs/read-file
+-   <span class="package-name">[`@stdlib/fs/exists`][@stdlib/fs/exists]</span><span class="delimiter">: </span><span class="description">test whether a path exists on the filesystem.</span>
+-   <span class="package-name">[`@stdlib/fs/read-file`][@stdlib/fs/read-file]</span><span class="delimiter">: </span><span class="description">read the entire contents of a file.</span>
 
 </section>
 

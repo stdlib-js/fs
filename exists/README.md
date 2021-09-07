@@ -226,8 +226,8 @@ true || <error_message>
 
 ## See Also
 
--   [`@stdlib/fs/read-file`][@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file`][@stdlib/fs/read-file
--   [`@stdlib/fs/read-dir`][@stdlib/fs/read-dir]: https://github.com/stdlib-js/fs/tree/main/read-dir`][@stdlib/fs/read-dir
+-   <span class="package-name">[`@stdlib/fs/read-file`][@stdlib/fs/read-file]</span><span class="delimiter">: </span><span class="description">read the entire contents of a file.</span>
+-   <span class="package-name">[`@stdlib/fs/read-dir`][@stdlib/fs/read-dir]</span><span class="delimiter">: </span><span class="description">read the entire contents of a directory.</span>
 
 </section>
 

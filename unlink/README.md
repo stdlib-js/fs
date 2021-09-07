@@ -208,7 +208,7 @@ $ unlink ./examples/fixtures/file.txt
 
 ## See Also
 
--   [`@stdlib/fs/exists`][@stdlib/fs/exists]: https://github.com/stdlib-js/fs/tree/main/exists`][@stdlib/fs/exists
+-   <span class="package-name">[`@stdlib/fs/exists`][@stdlib/fs/exists]</span><span class="delimiter">: </span><span class="description">test whether a path exists on the filesystem.</span>
 
 </section>
 

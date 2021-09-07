@@ -211,11 +211,11 @@ $ read-file ./README.md
 
 ## See Also
 
--   [`@stdlib/fs/exists`][@stdlib/fs/exists]: https://github.com/stdlib-js/fs/tree/main/exists`][@stdlib/fs/exists
--   [`@stdlib/fs/open`][@stdlib/fs/open]: https://github.com/stdlib-js/fs/tree/main/open`][@stdlib/fs/open
--   [`@stdlib/fs/read-dir`][@stdlib/fs/read-dir]: https://github.com/stdlib-js/fs/tree/main/read-dir`][@stdlib/fs/read-dir
--   [`@stdlib/fs/read-json`][@stdlib/fs/read-json]: https://github.com/stdlib-js/fs/tree/main/read-json`][@stdlib/fs/read-json
--   [`@stdlib/fs/write-file`][@stdlib/fs/write-file]: https://github.com/stdlib-js/fs/tree/main/write-file`][@stdlib/fs/write-file
+-   <span class="package-name">[`@stdlib/fs/exists`][@stdlib/fs/exists]</span><span class="delimiter">: </span><span class="description">test whether a path exists on the filesystem.</span>
+-   <span class="package-name">[`@stdlib/fs/open`][@stdlib/fs/open]</span><span class="delimiter">: </span><span class="description">open a file.</span>
+-   <span class="package-name">[`@stdlib/fs/read-dir`][@stdlib/fs/read-dir]</span><span class="delimiter">: </span><span class="description">read the entire contents of a directory.</span>
+-   <span class="package-name">[`@stdlib/fs/read-json`][@stdlib/fs/read-json]</span><span class="delimiter">: </span><span class="description">read a file as JSON.</span>
+-   <span class="package-name">[`@stdlib/fs/write-file`][@stdlib/fs/write-file]</span><span class="delimiter">: </span><span class="description">write data to a file.</span>
 
 </section>
 

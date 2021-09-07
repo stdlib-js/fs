@@ -227,10 +227,10 @@ $ rename ./examples/fixtures/file.txt ./examples/fixtures/tmp.txt
 
 ## See Also
 
--   [`@stdlib/fs/exists`][@stdlib/fs/exists]: https://github.com/stdlib-js/fs/tree/main/exists`][@stdlib/fs/exists
--   [`@stdlib/fs/read-file`][@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file`][@stdlib/fs/read-file
--   [`@stdlib/fs/write-file`][@stdlib/fs/write-file]: https://github.com/stdlib-js/fs/tree/main/write-file`][@stdlib/fs/write-file
--   [`@stdlib/fs/unlink`][@stdlib/fs/unlink]: https://github.com/stdlib-js/fs/tree/main/unlink`][@stdlib/fs/unlink
+-   <span class="package-name">[`@stdlib/fs/exists`][@stdlib/fs/exists]</span><span class="delimiter">: </span><span class="description">test whether a path exists on the filesystem.</span>
+-   <span class="package-name">[`@stdlib/fs/read-file`][@stdlib/fs/read-file]</span><span class="delimiter">: </span><span class="description">read the entire contents of a file.</span>
+-   <span class="package-name">[`@stdlib/fs/write-file`][@stdlib/fs/write-file]</span><span class="delimiter">: </span><span class="description">write data to a file.</span>
+-   <span class="package-name">[`@stdlib/fs/unlink`][@stdlib/fs/unlink]</span><span class="delimiter">: </span><span class="description">remove a directory entry.</span>
 
 </section>
 
