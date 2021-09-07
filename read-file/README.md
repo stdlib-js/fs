@@ -203,9 +203,43 @@ $ read-file ./README.md
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/fs/exists`][@stdlib/fs/exists]: https://github.com/stdlib-js/fs/tree/main/exists`][@stdlib/fs/exists
+-   [`@stdlib/fs/open`][@stdlib/fs/open]: https://github.com/stdlib-js/fs/tree/main/open`][@stdlib/fs/open
+-   [`@stdlib/fs/read-dir`][@stdlib/fs/read-dir]: https://github.com/stdlib-js/fs/tree/main/read-dir`][@stdlib/fs/read-dir
+-   [`@stdlib/fs/read-json`][@stdlib/fs/read-json]: https://github.com/stdlib-js/fs/tree/main/read-json`][@stdlib/fs/read-json
+-   [`@stdlib/fs/write-file`][@stdlib/fs/write-file]: https://github.com/stdlib-js/fs/tree/main/write-file`][@stdlib/fs/write-file
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [node-fs]: https://nodejs.org/api/fs.html
+
+<!-- <related-links> -->
+
+[@stdlib/fs/exists]: https://github.com/stdlib-js/fs/tree/main/exists
+
+[@stdlib/fs/open]: https://github.com/stdlib-js/fs/tree/main/open
+
+[@stdlib/fs/read-dir]: https://github.com/stdlib-js/fs/tree/main/read-dir
+
+[@stdlib/fs/read-json]: https://github.com/stdlib-js/fs/tree/main/read-json
+
+[@stdlib/fs/write-file]: https://github.com/stdlib-js/fs/tree/main/write-file
+
+<!-- </related-links> -->
 
 </section>
 

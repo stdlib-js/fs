@@ -173,9 +173,31 @@ $ resolve-parent-path package.json
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/fs/resolve-parent-path-by`][@stdlib/fs/resolve-parent-path-by]: https://github.com/stdlib-js/fs/tree/main/resolve-parent-path-by`][@stdlib/fs/resolve-parent-path-by
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [node-core-path-resolve]: https://nodejs.org/api/path.html#path_path_resolve_paths
+
+<!-- <related-links> -->
+
+[@stdlib/fs/resolve-parent-path-by]: https://github.com/stdlib-js/fs/tree/main/resolve-parent-path-by
+
+<!-- </related-links> -->
 
 </section>
 

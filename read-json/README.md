@@ -143,11 +143,33 @@ function onJSON( error, data ) {
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/fs/read-file`][@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file`][@stdlib/fs/read-file
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [json]: http://www.json.org/
 
 [bom]: https://en.wikipedia.org/wiki/Byte_order_mark
+
+<!-- <related-links> -->
+
+[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file
+
+<!-- </related-links> -->
 
 </section>
 

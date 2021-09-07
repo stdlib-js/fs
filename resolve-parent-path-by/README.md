@@ -189,9 +189,31 @@ resolveParentPathBy( './../non_existent_path/package.json', predicateAsync, onPa
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/fs/resolve-parent-path`][@stdlib/fs/resolve-parent-path]: https://github.com/stdlib-js/fs/tree/main/resolve-parent-path`][@stdlib/fs/resolve-parent-path
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [node-core-path-resolve]: https://nodejs.org/api/path.html#path_path_resolve_paths
+
+<!-- <related-links> -->
+
+[@stdlib/fs/resolve-parent-path]: https://github.com/stdlib-js/fs/tree/main/resolve-parent-path
+
+<!-- </related-links> -->
 
 </section>
 

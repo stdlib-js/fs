@@ -198,9 +198,34 @@ $ read-dir ./../
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/fs/exists`][@stdlib/fs/exists]: https://github.com/stdlib-js/fs/tree/main/exists`][@stdlib/fs/exists
+-   [`@stdlib/fs/read-file`][@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file`][@stdlib/fs/read-file
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [fs]: https://nodejs.org/api/fs.html
+
+<!-- <related-links> -->
+
+[@stdlib/fs/exists]: https://github.com/stdlib-js/fs/tree/main/exists
+
+[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file
+
+<!-- </related-links> -->
 
 </section>
 

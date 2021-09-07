@@ -218,9 +218,34 @@ true || <error_message>
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/fs/read-file`][@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file`][@stdlib/fs/read-file
+-   [`@stdlib/fs/read-dir`][@stdlib/fs/read-dir]: https://github.com/stdlib-js/fs/tree/main/read-dir`][@stdlib/fs/read-dir
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [node-fs-exists]: https://nodejs.org/api/fs.html#fs_fs_exists_path_callback
+
+<!-- <related-links> -->
+
+[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file
+
+[@stdlib/fs/read-dir]: https://github.com/stdlib-js/fs/tree/main/read-dir
+
+<!-- </related-links> -->
 
 </section>
 
