@@ -235,7 +235,7 @@ $ printf 'beep boop\n' | write-file ./examples/fixtures/file.txt
 
 [@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
-[standard-stream]: http://en.wikipedia.org/wiki/Pipeline_%28Unix%29
+[standard-stream]: https://en.wikipedia.org/wiki/Pipeline_%28Unix%29
 
 <!-- <related-links> -->
 
