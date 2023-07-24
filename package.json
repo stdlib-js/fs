@@ -40,6 +40,7 @@
     "@stdlib/assert": "github:stdlib-js/assert#main",
     "@stdlib/cli": "github:stdlib-js/cli#main",
     "@stdlib/math": "github:stdlib-js/math#main",
+    "@stdlib/object": "github:stdlib-js/object#main",
     "@stdlib/process": "github:stdlib-js/process#main",
     "@stdlib/string": "github:stdlib-js/string#main",
     "@stdlib/utils": "github:stdlib-js/utils#main",
