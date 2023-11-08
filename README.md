@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import fs from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/fs/tags). For example,
+
+```javascript
 import fs from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { close, exists, open, readDir, readFile, readFileList, readJSON, readWASM, rename, resolveParentPath, resolveParentPathBy, unlink, writeFile } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@v0.1.1-deno/mod.js';
+import { close, exists, open, readDir, readFile, readFileList, readJSON, readWASM, rename, resolveParentPath, resolveParentPathBy, unlink, writeFile } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@deno/mod.js';
 ```
 
 #### fs
@@ -96,7 +101,7 @@ var f = fs;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import fs from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@v0.1.1-deno/mod.js';
+import fs from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@deno/mod.js';
 
 console.log( objectKeys( fs ) );
 ```
