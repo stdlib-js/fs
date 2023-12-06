@@ -151,7 +151,7 @@ function onRead( error, wasm ) {
 
 <!-- <related-links> -->
 
-[@stdlib/fs/read-file]: https://github.com/stdlib-js/fs/tree/main/read-file
+
 
 <!-- </related-links> -->
 
