@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-19)
+## Unreleased (2024-07-07)
 
 <section class="packages">
 
@@ -90,6 +90,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`e21305b`](https://github.com/stdlib-js/stdlib/commit/e21305b05204a99d87dfa5b71d48583c62c465af) - **fix:** ensure proper handling of string arguments _(by Athan Reines)_
 -   [`dbe3a16`](https://github.com/stdlib-js/stdlib/commit/dbe3a166a5eefd1656d4f34026d01f25b8c39b31) - **fix:** make CLI scripts executable [(#2250)](https://github.com/stdlib-js/stdlib/pull/2250) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`075eb02`](https://github.com/stdlib-js/stdlib/commit/075eb020f403420e88a7e7b451806e0a6beebc2b) - **test:** change to relative require path _(by Philipp Burckhardt)_
