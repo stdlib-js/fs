@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-07)
+## Unreleased (2024-07-21)
 
 <section class="packages">
 
@@ -64,6 +64,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="fs-resolve-parent-paths-unreleased">
+
+#### [@stdlib/fs/resolve-parent-paths](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/resolve-parent-paths)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f5f09ad`](https://github.com/stdlib-js/stdlib/commit/f5f09ad4db2e3ef0802c85ebada220cca6ebd208) - add `fs/resolve-parent-paths`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -72,12 +94,13 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Hridyanshu
 -   Hridyanshu7
 -   Philipp Burckhardt
+-   Snehil Shah
 -   stdlib-bot
 
 </section>
@@ -90,6 +113,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f5f09ad`](https://github.com/stdlib-js/stdlib/commit/f5f09ad4db2e3ef0802c85ebada220cca6ebd208) - **feat:** add `fs/resolve-parent-paths` _(by Snehil Shah, Athan Reines)_
 -   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`e21305b`](https://github.com/stdlib-js/stdlib/commit/e21305b05204a99d87dfa5b71d48583c62c465af) - **fix:** ensure proper handling of string arguments _(by Athan Reines)_
 -   [`dbe3a16`](https://github.com/stdlib-js/stdlib/commit/dbe3a166a5eefd1656d4f34026d01f25b8c39b31) - **fix:** make CLI scripts executable [(#2250)](https://github.com/stdlib-js/stdlib/pull/2250) _(by stdlib-bot, Philipp Burckhardt)_
