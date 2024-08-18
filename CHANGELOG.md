@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.1">
+
+## 0.3.1 (2024-08-18)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-08-17)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="fs-append-file-unreleased">
+<section class="package" id="fs-append-file-v0.3.0">
 
 #### [@stdlib/fs/append-file](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/append-file)
 
@@ -42,7 +52,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="fs-read-file-list-unreleased">
+<section class="package" id="fs-read-file-list-v0.3.0">
 
 #### [@stdlib/fs/read-file-list](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-file-list)
 
@@ -64,7 +74,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="fs-resolve-parent-paths-unreleased">
+<section class="package" id="fs-resolve-parent-paths-v0.3.0">
 
 #### [@stdlib/fs/resolve-parent-paths](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/resolve-parent-paths)
 
