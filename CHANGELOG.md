@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-16)
+## Unreleased (2024-09-17)
 
 <section class="packages">
 
@@ -18,9 +18,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 -   Snehil Shah
 
 </section>
@@ -33,6 +34,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`cadb613`](https://github.com/stdlib-js/stdlib/commit/cadb6131d6ce50338d11757e88e8a910a0367983) - **chore:** update argument documentation styling _(by Philipp Burckhardt)_
 -   [`8499db6`](https://github.com/stdlib-js/stdlib/commit/8499db6d48ac9f25adef2b45eda0f8b18cee763a) - **docs:** update `resolve-parent-paths` examples [(#2908)](https://github.com/stdlib-js/stdlib/pull/2908) _(by Snehil Shah, Athan Reines)_
 
 </details>
