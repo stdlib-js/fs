@@ -34,6 +34,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 -   [`cadb613`](https://github.com/stdlib-js/stdlib/commit/cadb6131d6ce50338d11757e88e8a910a0367983) - **chore:** update argument documentation styling _(by Philipp Burckhardt)_
 -   [`8499db6`](https://github.com/stdlib-js/stdlib/commit/8499db6d48ac9f25adef2b45eda0f8b18cee763a) - **docs:** update `resolve-parent-paths` examples [(#2908)](https://github.com/stdlib-js/stdlib/pull/2908) _(by Snehil Shah, Athan Reines)_
 
