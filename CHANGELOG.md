@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-21)
+## Unreleased (2024-09-22)
 
 <section class="packages">
 
@@ -34,6 +34,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`4a6e485`](https://github.com/stdlib-js/stdlib/commit/4a6e4853d714b17a494130cde8c5def60cb5d94a) - **refactor:** use dedicated array utility _(by Athan Reines)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 -   [`cadb613`](https://github.com/stdlib-js/stdlib/commit/cadb6131d6ce50338d11757e88e8a910a0367983) - **chore:** update argument documentation styling _(by Philipp Burckhardt)_
