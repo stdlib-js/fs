@@ -4,25 +4,72 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-01)
+## Unreleased (2024-10-26)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="fs-read-ndjson-unreleased">
+
+#### [@stdlib/fs/read-ndjson](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-ndjson)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d9db39a`](https://github.com/stdlib-js/stdlib/commit/d9db39a80700acab1a63f7944aa0fe07826f9ae5) - add `fs/read-ndjson` [(#2969)](https://github.com/stdlib-js/stdlib/pull/2969)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#1074](https://github.com/stdlib-js/stdlib/issues/1074)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#1074](https://github.com/stdlib-js/stdlib/issues/1074)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
 -   Snehil Shah
+-   yaswanth
 
 </section>
 
@@ -34,6 +81,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d9db39a`](https://github.com/stdlib-js/stdlib/commit/d9db39a80700acab1a63f7944aa0fe07826f9ae5) - **feat:** add `fs/read-ndjson` [(#2969)](https://github.com/stdlib-js/stdlib/pull/2969) _(by yaswanth, Athan Reines)_
 -   [`7b02c16`](https://github.com/stdlib-js/stdlib/commit/7b02c160d8c9ecf6742ea0178c733f938e0c94c4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`4a6e485`](https://github.com/stdlib-js/stdlib/commit/4a6e4853d714b17a494130cde8c5def60cb5d94a) - **refactor:** use dedicated array utility _(by Athan Reines)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
