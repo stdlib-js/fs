@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="fs-read-json-unreleased">
+
+#### [@stdlib/fs/read-json](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-json)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`c615a6f`](https://github.com/stdlib-js/stdlib/commit/c615a6f41c77d267a64e8bd685128b49cfe10141) - update return types
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="fs-read-ndjson-unreleased">
 
 #### [@stdlib/fs/read-ndjson](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-ndjson)
@@ -81,6 +103,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`c615a6f`](https://github.com/stdlib-js/stdlib/commit/c615a6f41c77d267a64e8bd685128b49cfe10141) - **fix:** update return types _(by Athan Reines)_
 -   [`d9db39a`](https://github.com/stdlib-js/stdlib/commit/d9db39a80700acab1a63f7944aa0fe07826f9ae5) - **feat:** add `fs/read-ndjson` [(#2969)](https://github.com/stdlib-js/stdlib/pull/2969) _(by yaswanth, Athan Reines)_
 -   [`7b02c16`](https://github.com/stdlib-js/stdlib/commit/7b02c160d8c9ecf6742ea0178c733f938e0c94c4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`4a6e485`](https://github.com/stdlib-js/stdlib/commit/4a6e4853d714b17a494130cde8c5def60cb5d94a) - **refactor:** use dedicated array utility _(by Athan Reines)_
