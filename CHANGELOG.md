@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.3">
+
+## 0.3.3 (2024-11-05)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.2">
 
 ## 0.3.2 (2024-11-05)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="fs-read-json-unreleased">
+<section class="package" id="fs-read-json-v0.3.2">
 
 #### [@stdlib/fs/read-json](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-json)
 
@@ -32,7 +42,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="fs-read-ndjson-unreleased">
+<section class="package" id="fs-read-ndjson-v0.3.2">
 
 #### [@stdlib/fs/read-ndjson](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-ndjson)
 
