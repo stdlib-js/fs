@@ -4,15 +4,23 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-24)
+## Unreleased (2025-06-27)
 
-<section class="packages">
+<section class="commits">
 
-### Packages
+### Commits
+
+<details>
+
+-   [`5df47c3`](https://github.com/stdlib-js/stdlib/commit/5df47c33138ddac50e4a9cfb8f0b22c1821e046b) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
+
+</details>
 
 </section>
 
-<!-- /.packages -->
+<!-- /.commits -->
 
 <section class="contributors">
 
@@ -25,21 +33,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.contributors -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
--   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
 
 </section>
 
@@ -59,41 +52,9 @@ No changes reported for this release.
 
 ## 0.3.2 (2024-11-05)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="fs-read-json-v0.3.2">
-
-#### [@stdlib/fs/read-json](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-json)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c615a6f`](https://github.com/stdlib-js/stdlib/commit/c615a6f41c77d267a64e8bd685128b49cfe10141) - update return types
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-read-ndjson-v0.3.2">
-
-#### [@stdlib/fs/read-ndjson](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-ndjson)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`d9db39a`](https://github.com/stdlib-js/stdlib/commit/d9db39a80700acab1a63f7944aa0fe07826f9ae5) - add `fs/read-ndjson` [(#2969)](https://github.com/stdlib-js/stdlib/pull/2969)
 
@@ -101,27 +62,15 @@ No changes reported for this release.
 
 <!-- /.features -->
 
-<section class="issues">
+<section class="bug-fixes">
 
-##### Closed Issues
+### Bug Fixes
 
-This release closes the following issue:
-
-[#1074](https://github.com/stdlib-js/stdlib/issues/1074)
+-   [`c615a6f`](https://github.com/stdlib-js/stdlib/commit/c615a6f41c77d267a64e8bd685128b49cfe10141) - update return types
 
 </section>
 
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -134,21 +83,6 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 4 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
--   Snehil Shah
--   Yaswanth Kosuru
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -171,6 +105,21 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+-   Snehil Shah
+-   Yaswanth Kosuru
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -189,20 +138,11 @@ No changes reported for this release.
 
 ## 0.3.0 (2024-08-17)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="fs-append-file-v0.3.0">
-
-#### [@stdlib/fs/append-file](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/append-file)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
+-   [`f5f09ad`](https://github.com/stdlib-js/stdlib/commit/f5f09ad4db2e3ef0802c85ebada220cca6ebd208) - add `fs/resolve-parent-paths`
 -   [`14dda68`](https://github.com/stdlib-js/stdlib/commit/14dda680a426741867fa3b52447d703ff1e9b8e1) - add `fs/append-file`
 
 </section>
@@ -211,83 +151,14 @@ No changes reported for this release.
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
+-   [`e21305b`](https://github.com/stdlib-js/stdlib/commit/e21305b05204a99d87dfa5b71d48583c62c465af) - ensure proper handling of string arguments
 -   [`dbe3a16`](https://github.com/stdlib-js/stdlib/commit/dbe3a166a5eefd1656d4f34026d01f25b8c39b31) - make CLI scripts executable [(#2250)](https://github.com/stdlib-js/stdlib/pull/2250)
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-read-file-list-v0.3.0">
-
-#### [@stdlib/fs/read-file-list](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-file-list)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`e21305b`](https://github.com/stdlib-js/stdlib/commit/e21305b05204a99d87dfa5b71d48583c62c465af) - ensure proper handling of string arguments
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-resolve-parent-paths-v0.3.0">
-
-#### [@stdlib/fs/resolve-parent-paths](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/resolve-parent-paths)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`f5f09ad`](https://github.com/stdlib-js/stdlib/commit/f5f09ad4db2e3ef0802c85ebada220cca6ebd208) - add `fs/resolve-parent-paths`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 5 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Hridyanshu
--   Hridyanshu7
--   Philipp Burckhardt
--   Snehil Shah
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -308,6 +179,22 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 5 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Hridyanshu
+-   Hridyanshu7
+-   Philipp Burckhardt
+-   Snehil Shah
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -326,26 +213,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-05)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -362,6 +229,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -381,489 +260,15 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-11-08)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="fs-v0.1.0">
-
-#### [@stdlib/fs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-close-v0.1.0">
-
-#### [@stdlib/fs/close](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/close)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-exists-v0.1.0">
-
-#### [@stdlib/fs/exists](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/exists)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-open-v0.1.0">
-
-#### [@stdlib/fs/open](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/open)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-read-dir-v0.1.0">
-
-#### [@stdlib/fs/read-dir](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-dir)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-read-file-v0.1.0">
-
-#### [@stdlib/fs/read-file](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-file)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-read-file-list-v0.1.0">
-
-#### [@stdlib/fs/read-file-list](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-file-list)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-read-json-v0.1.0">
-
-#### [@stdlib/fs/read-json](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-json)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-read-wasm-v0.1.0">
-
-#### [@stdlib/fs/read-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/read-wasm)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-rename-v0.1.0">
-
-#### [@stdlib/fs/rename](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/rename)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-resolve-parent-path-v0.1.0">
-
-#### [@stdlib/fs/resolve-parent-path](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/resolve-parent-path)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-resolve-parent-path-by-v0.1.0">
-
-#### [@stdlib/fs/resolve-parent-path-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/resolve-parent-path-by)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-unlink-v0.1.0">
-
-#### [@stdlib/fs/unlink](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/unlink)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="fs-write-file-v0.1.0">
-
-#### [@stdlib/fs/write-file](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/write-file)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`3dec037`](https://github.com/stdlib-js/stdlib/commit/3dec037f6c9097c6778408c877008d7eeee5ad78): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -876,18 +281,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -907,6 +300,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
