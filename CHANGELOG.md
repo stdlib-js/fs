@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2025-08-11)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b20b024`](https://github.com/stdlib-js/stdlib/commit/b20b0247ea520b8f715d41851cb7b1fbfdf2122d) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`542fce1`](https://github.com/stdlib-js/stdlib/commit/542fce196f903aae5578a7ad528f627bdcf497e0) - **test:** always resolve the package's examples folder _(by Athan Reines)_
 -   [`f87c5e7`](https://github.com/stdlib-js/stdlib/commit/f87c5e70befaa06d3df0ae85eb47bdaaa9d93557) - **test:** use looser check to handle top-level `examples` which has `index.mjs` _(by Philipp Burckhardt)_
 -   [`5df47c3`](https://github.com/stdlib-js/stdlib/commit/5df47c33138ddac50e4a9cfb8f0b22c1821e046b) - **chore:** minor clean-up _(by Philipp Burckhardt)_
