@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-08-12)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`0f7607a`](https://github.com/stdlib-js/stdlib/commit/0f7607a1d5bc88b5ee38d5091725678eafd304f6) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`b20b024`](https://github.com/stdlib-js/stdlib/commit/b20b0247ea520b8f715d41851cb7b1fbfdf2122d) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`542fce1`](https://github.com/stdlib-js/stdlib/commit/542fce196f903aae5578a7ad528f627bdcf497e0) - **test:** always resolve the package's examples folder _(by Athan Reines)_
 -   [`f87c5e7`](https://github.com/stdlib-js/stdlib/commit/f87c5e70befaa06d3df0ae85eb47bdaaa9d93557) - **test:** use looser check to handle top-level `examples` which has `index.mjs` _(by Philipp Burckhardt)_
