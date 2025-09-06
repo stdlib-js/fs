@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-01)
+## Unreleased (2025-09-06)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`8b0b780`](https://github.com/stdlib-js/stdlib/commit/8b0b78084a2ff5d7a76ba3c5945b13d7f0906f4f) - **docs:** fix TypeScript declaration linting errors _(by Philipp Burckhardt)_
 -   [`fc43c32`](https://github.com/stdlib-js/stdlib/commit/fc43c32e24ac76d99cfd1ee0c8eb9c29c7a6d866) - **feat:** add `appendFile`, `readNDJSON`, and `resolveParentPaths` to `fs` namespace _(by Philipp Burckhardt)_
 -   [`97f0e11`](https://github.com/stdlib-js/stdlib/commit/97f0e11fad5ac045777328c45d2ff595f568a5e0) - **chore:** use canonical format for JSDoc union types _(by Philipp Burckhardt)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
