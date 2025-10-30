@@ -20,6 +20,7 @@
 
 /* eslint-disable max-lines */
 
+import appendFile = require( './../../append-file' );
 import close = require( './../../close' );
 import exists = require( './../../exists' );
 import open = require( './../../open' );
@@ -27,10 +28,12 @@ import readDir = require( './../../read-dir' );
 import readFile = require( './../../read-file' );
 import readFileList = require( './../../read-file-list' );
 import readJSON = require( './../../read-json' );
+import readNDJSON = require( './../../read-ndjson' );
 import readWASM = require( './../../read-wasm' );
 import rename = require( './../../rename' );
 import resolveParentPath = require( './../../resolve-parent-path' );
 import resolveParentPathBy = require( './../../resolve-parent-path-by' );
+import resolveParentPaths = require( './../../resolve-parent-paths' );
 import unlink = require( './../../unlink' );
 import writeFile = require( './../../write-file' );
 
@@ -38,6 +41,25 @@ import writeFile = require( './../../write-file' );
 * Interface describing the `fs` namespace.
 */
 interface Namespace {
+	/**
+	* Asynchronously appends data to a file.
+	*
+	* @param path - file path or file descriptor
+	* @param data - data to append
+	* @param options - options (if a string, the value is the encoding)
+	* @param clbk - callback to invoke after appending data to a file
+	*
+	* @example
+	* function onAppend( err ) {
+	*     if ( err ) {
+	*         console.log( err.message );
+	*     }
+	* }
+	*
+	* ns.appendFile( './beep/boop.txt', 'beep boop\n', onAppend );
+	*/
+	appendFile: typeof appendFile;
+
 	/**
 	* Asynchronously closes a file descriptor.
 	*
@@ -252,6 +274,40 @@ interface Namespace {
 	readJSON: typeof readJSON;
 
 	/**
+	* Asynchronously reads a file as newline-delimited JSON.
+	*
+	* @param file - file path or file descriptor
+	* @param options - options
+	* @param options.encoding - file encoding
+	* @param options.flag - file status flag
+	* @param options.reviver - JSON reviver
+	* @param clbk - callback
+	*
+	* @example
+	* var resolve = require( 'path' ).resolve;
+	*
+	* ns.readNDJSON( resolve( __dirname, '..', 'examples', 'fixtures', 'file.ndjson' ), 'utf-8', clbk );
+	*
+	* function clbk( error, data ) {
+	*     if ( error ) {
+	*         throw error;
+	*     }
+	*     console.log( data );
+	* }
+	*
+	* @example
+	* var resolve = require( 'path' ).resolve;
+	* var instanceOf = require( '@stdlib/assert/instance-of' );
+	*
+	* var out = ns.readNDJSON.sync( resolve( __dirname, '..', 'examples', 'fixtures', 'file.ndjson' ) );
+	* if ( instanceOf( out, Error ) ) {
+	*     throw out;
+	* }
+	* console.log( out );
+	*/
+	readNDJSON: typeof readNDJSON;
+
+	/**
 	* Reads the entire contents of a WebAssembly file.
 	*
 	* @param file - file path or file descriptor
@@ -367,6 +423,31 @@ interface Namespace {
 	* // e.g., returns '...'
 	*/
 	resolveParentPathBy: typeof resolveParentPathBy;
+
+	/**
+	* Asynchronously resolves paths from a set of paths by walking parent directories.
+	*
+	* @param paths - paths to resolve
+	* @param options - function options
+	* @param options.dir - base directory
+	* @param options.mode - mode of operation
+	* @param clbk - callback to invoke after resolving paths
+	* @throws must provide valid options
+	*
+	* @example
+	* ns.resolveParentPaths( [ 'package.json', 'package-lock.json' ], onPaths );
+	*
+	* function onPaths( error, paths ) {
+	*     if ( error ) {
+	*         throw error;
+	*     }
+	*     console.log( paths );
+	* }
+	*
+	* @example
+	* var paths = ns.resolveParentPaths.sync( [ 'package.json', 'package-lock.json' ] );
+	*/
+	resolveParentPaths: typeof resolveParentPaths;
 
 	/**
 	* Asynchronously removes a directory entry.

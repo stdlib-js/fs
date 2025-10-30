@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-15)
+## Unreleased (2025-10-30)
 
 <section class="features">
 
 ### Features
 
+-   [`27665f5`](https://github.com/stdlib-js/stdlib/commit/27665f5cafea510df6b42ce82bd3d1eb0a808911) - update `fs` TypeScript declarations
 -   [`fc43c32`](https://github.com/stdlib-js/stdlib/commit/fc43c32e24ac76d99cfd1ee0c8eb9c29c7a6d866) - add `appendFile`, `readNDJSON`, and `resolveParentPaths` to `fs` namespace
 
 </section>
@@ -20,9 +21,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#8013](https://github.com/stdlib-js/stdlib/issues/8013)
+[#8013](https://github.com/stdlib-js/stdlib/issues/8013), [#8282](https://github.com/stdlib-js/stdlib/issues/8282)
 
 </section>
 
@@ -34,6 +35,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`dfb6f91`](https://github.com/stdlib-js/stdlib/commit/dfb6f91f2704dc2445b5966a629257c0e1052bd2) - **chore:** fix JavaScript lint errors [(#8293)](https://github.com/stdlib-js/stdlib/pull/8293) _(by Balkawade Sai Dipak, Athan Reines)_
+-   [`27665f5`](https://github.com/stdlib-js/stdlib/commit/27665f5cafea510df6b42ce82bd3d1eb0a808911) - **feat:** update `fs` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`afee9b8`](https://github.com/stdlib-js/stdlib/commit/afee9b8ccfb8688748b390a1960be38f562f22f3) - **chore:** resolve JavaScript lint errors [(#8018)](https://github.com/stdlib-js/stdlib/pull/8018) _(by Gaurav Kaushik, Athan Reines)_
 -   [`8b0b780`](https://github.com/stdlib-js/stdlib/commit/8b0b78084a2ff5d7a76ba3c5945b13d7f0906f4f) - **docs:** fix TypeScript declaration linting errors _(by Philipp Burckhardt)_
 -   [`fc43c32`](https://github.com/stdlib-js/stdlib/commit/fc43c32e24ac76d99cfd1ee0c8eb9c29c7a6d866) - **feat:** add `appendFile`, `readNDJSON`, and `resolveParentPaths` to `fs` namespace _(by Philipp Burckhardt)_
@@ -61,9 +64,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Balkawade Sai Dipak
 -   Gaurav Kaushik
 -   Philipp Burckhardt
 
