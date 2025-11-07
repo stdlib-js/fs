@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-30)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
@@ -35,6 +35,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`dfb6f91`](https://github.com/stdlib-js/stdlib/commit/dfb6f91f2704dc2445b5966a629257c0e1052bd2) - **chore:** fix JavaScript lint errors [(#8293)](https://github.com/stdlib-js/stdlib/pull/8293) _(by Balkawade Sai Dipak, Athan Reines)_
 -   [`27665f5`](https://github.com/stdlib-js/stdlib/commit/27665f5cafea510df6b42ce82bd3d1eb0a808911) - **feat:** update `fs` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`afee9b8`](https://github.com/stdlib-js/stdlib/commit/afee9b8ccfb8688748b390a1960be38f562f22f3) - **chore:** resolve JavaScript lint errors [(#8018)](https://github.com/stdlib-js/stdlib/pull/8018) _(by Gaurav Kaushik, Athan Reines)_

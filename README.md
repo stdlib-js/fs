@@ -76,6 +76,7 @@ var f = fs;
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`appendFile( file, data[, options], clbk )`][@stdlib/fs/append-file]</span><span class="delimiter">: </span><span class="description">append data to a file.</span>
 -   <span class="signature">[`close( fd, clbk )`][@stdlib/fs/close]</span><span class="delimiter">: </span><span class="description">close a file descriptor.</span>
 -   <span class="signature">[`exists( path, clbk )`][@stdlib/fs/exists]</span><span class="delimiter">: </span><span class="description">test whether a path exists on the filesystem.</span>
 -   <span class="signature">[`open( path[, flags[, mode]], clbk )`][@stdlib/fs/open]</span><span class="delimiter">: </span><span class="description">open a file.</span>
@@ -83,10 +84,12 @@ var f = fs;
 -   <span class="signature">[`readFileList( filepaths[, options], clbk )`][@stdlib/fs/read-file-list]</span><span class="delimiter">: </span><span class="description">read the entire contents of each file in a file list.</span>
 -   <span class="signature">[`readFile( file[, options], clbk )`][@stdlib/fs/read-file]</span><span class="delimiter">: </span><span class="description">read the entire contents of a file.</span>
 -   <span class="signature">[`readJSON( file[, options], clbk )`][@stdlib/fs/read-json]</span><span class="delimiter">: </span><span class="description">read a file as JSON.</span>
+-   <span class="signature">[`readNDJSON( file[, options], clbk )`][@stdlib/fs/read-ndjson]</span><span class="delimiter">: </span><span class="description">read a file as newline-delimited JSON.</span>
 -   <span class="signature">[`readWASM( file[, options], clbk )`][@stdlib/fs/read-wasm]</span><span class="delimiter">: </span><span class="description">read a file as WebAssembly.</span>
 -   <span class="signature">[`rename( oldPath, newPath, clbk )`][@stdlib/fs/rename]</span><span class="delimiter">: </span><span class="description">rename a file.</span>
 -   <span class="signature">[`resolveParentPathBy( path[, options], predicate, clbk )`][@stdlib/fs/resolve-parent-path-by]</span><span class="delimiter">: </span><span class="description">resolve a path according to a predicate function by walking parent directories.</span>
 -   <span class="signature">[`resolveParentPath( path[, options], clbk )`][@stdlib/fs/resolve-parent-path]</span><span class="delimiter">: </span><span class="description">resolve a path by walking parent directories.</span>
+-   <span class="signature">[`resolveParentPaths( paths[, options], clbk )`][@stdlib/fs/resolve-parent-paths]</span><span class="delimiter">: </span><span class="description">resolve paths from a set of paths by walking parent directories.</span>
 -   <span class="signature">[`unlink( path, clbk )`][@stdlib/fs/unlink]</span><span class="delimiter">: </span><span class="description">remove a directory entry.</span>
 -   <span class="signature">[`writeFile( file, data[, options], clbk )`][@stdlib/fs/write-file]</span><span class="delimiter">: </span><span class="description">write data to a file.</span>
 
@@ -199,6 +202,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
+[@stdlib/fs/append-file]: https://github.com/stdlib-js/fs/tree/main/append-file
+
 [@stdlib/fs/close]: https://github.com/stdlib-js/fs/tree/main/close
 
 [@stdlib/fs/exists]: https://github.com/stdlib-js/fs/tree/main/exists
@@ -213,6 +218,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/fs/read-json]: https://github.com/stdlib-js/fs/tree/main/read-json
 
+[@stdlib/fs/read-ndjson]: https://github.com/stdlib-js/fs/tree/main/read-ndjson
+
 [@stdlib/fs/read-wasm]: https://github.com/stdlib-js/fs/tree/main/read-wasm
 
 [@stdlib/fs/rename]: https://github.com/stdlib-js/fs/tree/main/rename
@@ -220,6 +227,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/fs/resolve-parent-path-by]: https://github.com/stdlib-js/fs/tree/main/resolve-parent-path-by
 
 [@stdlib/fs/resolve-parent-path]: https://github.com/stdlib-js/fs/tree/main/resolve-parent-path
+
+[@stdlib/fs/resolve-parent-paths]: https://github.com/stdlib-js/fs/tree/main/resolve-parent-paths
 
 [@stdlib/fs/unlink]: https://github.com/stdlib-js/fs/tree/main/unlink
 
