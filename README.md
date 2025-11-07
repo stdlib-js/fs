@@ -35,20 +35,32 @@ limitations under the License.
 
 > Filesystem APIs.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/fs
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import fs from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { appendFile, close, exists, open, readDir, readFile, readFileList, readJSON, readNDJSON, readWASM, rename, resolveParentPath, resolveParentPathBy, resolveParentPaths, unlink, writeFile } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@esm/index.mjs';
+var fs = require( '@stdlib/fs' );
 ```
 
 #### fs
@@ -64,6 +76,7 @@ var f = fs;
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`appendFile( file, data[, options], clbk )`][@stdlib/fs/append-file]</span><span class="delimiter">: </span><span class="description">append data to a file.</span>
 -   <span class="signature">[`close( fd, clbk )`][@stdlib/fs/close]</span><span class="delimiter">: </span><span class="description">close a file descriptor.</span>
 -   <span class="signature">[`exists( path, clbk )`][@stdlib/fs/exists]</span><span class="delimiter">: </span><span class="description">test whether a path exists on the filesystem.</span>
 -   <span class="signature">[`open( path[, flags[, mode]], clbk )`][@stdlib/fs/open]</span><span class="delimiter">: </span><span class="description">open a file.</span>
@@ -71,10 +84,12 @@ var f = fs;
 -   <span class="signature">[`readFileList( filepaths[, options], clbk )`][@stdlib/fs/read-file-list]</span><span class="delimiter">: </span><span class="description">read the entire contents of each file in a file list.</span>
 -   <span class="signature">[`readFile( file[, options], clbk )`][@stdlib/fs/read-file]</span><span class="delimiter">: </span><span class="description">read the entire contents of a file.</span>
 -   <span class="signature">[`readJSON( file[, options], clbk )`][@stdlib/fs/read-json]</span><span class="delimiter">: </span><span class="description">read a file as JSON.</span>
+-   <span class="signature">[`readNDJSON( file[, options], clbk )`][@stdlib/fs/read-ndjson]</span><span class="delimiter">: </span><span class="description">read a file as newline-delimited JSON.</span>
 -   <span class="signature">[`readWASM( file[, options], clbk )`][@stdlib/fs/read-wasm]</span><span class="delimiter">: </span><span class="description">read a file as WebAssembly.</span>
 -   <span class="signature">[`rename( oldPath, newPath, clbk )`][@stdlib/fs/rename]</span><span class="delimiter">: </span><span class="description">rename a file.</span>
 -   <span class="signature">[`resolveParentPathBy( path[, options], predicate, clbk )`][@stdlib/fs/resolve-parent-path-by]</span><span class="delimiter">: </span><span class="description">resolve a path according to a predicate function by walking parent directories.</span>
 -   <span class="signature">[`resolveParentPath( path[, options], clbk )`][@stdlib/fs/resolve-parent-path]</span><span class="delimiter">: </span><span class="description">resolve a path by walking parent directories.</span>
+-   <span class="signature">[`resolveParentPaths( paths[, options], clbk )`][@stdlib/fs/resolve-parent-paths]</span><span class="delimiter">: </span><span class="description">resolve paths from a set of paths by walking parent directories.</span>
 -   <span class="signature">[`unlink( path, clbk )`][@stdlib/fs/unlink]</span><span class="delimiter">: </span><span class="description">remove a directory entry.</span>
 -   <span class="signature">[`writeFile( file, data[, options], clbk )`][@stdlib/fs/write-file]</span><span class="delimiter">: </span><span class="description">write data to a file.</span>
 
@@ -94,20 +109,11 @@ var f = fs;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import fs from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var fs = require( '@stdlib/fs' );
 
 console.log( objectKeys( fs ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -131,7 +137,7 @@ console.log( objectKeys( fs ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -196,6 +202,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
+[@stdlib/fs/append-file]: https://github.com/stdlib-js/fs/tree/main/append-file
+
 [@stdlib/fs/close]: https://github.com/stdlib-js/fs/tree/main/close
 
 [@stdlib/fs/exists]: https://github.com/stdlib-js/fs/tree/main/exists
@@ -210,6 +218,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/fs/read-json]: https://github.com/stdlib-js/fs/tree/main/read-json
 
+[@stdlib/fs/read-ndjson]: https://github.com/stdlib-js/fs/tree/main/read-ndjson
+
 [@stdlib/fs/read-wasm]: https://github.com/stdlib-js/fs/tree/main/read-wasm
 
 [@stdlib/fs/rename]: https://github.com/stdlib-js/fs/tree/main/rename
@@ -217,6 +227,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/fs/resolve-parent-path-by]: https://github.com/stdlib-js/fs/tree/main/resolve-parent-path-by
 
 [@stdlib/fs/resolve-parent-path]: https://github.com/stdlib-js/fs/tree/main/resolve-parent-path
+
+[@stdlib/fs/resolve-parent-paths]: https://github.com/stdlib-js/fs/tree/main/resolve-parent-paths
 
 [@stdlib/fs/unlink]: https://github.com/stdlib-js/fs/tree/main/unlink
 
