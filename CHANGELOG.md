@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-03)
+## Unreleased (2026-04-20)
 
 <section class="features">
 
@@ -35,6 +35,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`1228698`](https://github.com/stdlib-js/stdlib/commit/122869845328a51c626f11d299f1ae3c699c5c71) - **bench:** refactor to use string interpolation in `fs` [(#11615)](https://github.com/stdlib-js/stdlib/pull/11615) _(by Karan Anand)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`dfb6f91`](https://github.com/stdlib-js/stdlib/commit/dfb6f91f2704dc2445b5966a629257c0e1052bd2) - **chore:** fix JavaScript lint errors [(#8293)](https://github.com/stdlib-js/stdlib/pull/8293) _(by Balkawade Sai Dipak, Athan Reines)_
 -   [`27665f5`](https://github.com/stdlib-js/stdlib/commit/27665f5cafea510df6b42ce82bd3d1eb0a808911) - **feat:** update `fs` TypeScript declarations _(by Philipp Burckhardt)_
@@ -65,11 +66,12 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Balkawade Sai Dipak
 -   Gaurav Kaushik
+-   Karan Anand
 -   Philipp Burckhardt
 
 </section>
