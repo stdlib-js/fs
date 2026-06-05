@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import fs from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@esm/index.mjs';
+import fs from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@v0.4.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { appendFile, close, exists, open, readDir, readFile, readFileList, readJSON, readNDJSON, readWASM, rename, resolveParentPath, resolveParentPathBy, resolveParentPaths, unlink, writeFile } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@esm/index.mjs';
+import { appendFile, close, exists, open, readDir, readFile, readFileList, readJSON, readNDJSON, readWASM, rename, resolveParentPath, resolveParentPathBy, resolveParentPaths, unlink, writeFile } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@v0.4.1-esm/index.mjs';
 ```
 
 #### fs
@@ -104,7 +104,7 @@ var f = fs;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import fs from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@esm/index.mjs';
+import fs from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs@v0.4.1-esm/index.mjs';
 
 console.log( objectKeys( fs ) );
 
