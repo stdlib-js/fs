@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-06-28)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#13070](https://github.com/stdlib-js/stdlib/issues/13070)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`285b781`](https://github.com/stdlib-js/stdlib/commit/285b78193c332858e0bcad715b42dd2caa788bc5) - **chore:** fix JavaScript lint errors [(#13177)](https://github.com/stdlib-js/stdlib/pull/13177) _(by Akanksha Kumari)_
 -   [`121e397`](https://github.com/stdlib-js/stdlib/commit/121e39767b6c05a6b4d024dbaec890012f0c221d) - **docs:** update `fs` TypeScript declarations [(#12584)](https://github.com/stdlib-js/stdlib/pull/12584) _(by stdlib-bot)_
 
 </details>
@@ -19,6 +32,18 @@
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Akanksha Kumari
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
