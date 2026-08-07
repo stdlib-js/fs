@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-06)
+## Unreleased (2026-08-07)
 
 <section class="issues">
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#13070](https://github.com/stdlib-js/stdlib/issues/13070), [#13273](https://github.com/stdlib-js/stdlib/issues/13273)
+[#13070](https://github.com/stdlib-js/stdlib/issues/13070), [#13252](https://github.com/stdlib-js/stdlib/issues/13252), [#13273](https://github.com/stdlib-js/stdlib/issues/13273)
 
 </section>
 
@@ -24,6 +24,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`e25377a`](https://github.com/stdlib-js/stdlib/commit/e25377ad84f82175e4d388f209c3fe4e77a53b54) - **chore:** fix JavaScript lint errors [(#13259)](https://github.com/stdlib-js/stdlib/pull/13259) _(by Ujjwal Verma, Athan Reines)_
 -   [`be0b1f5`](https://github.com/stdlib-js/stdlib/commit/be0b1f501a4af5546f7ff6ee979585e22bdd56a6) - **chore:** clean-up [(#13780)](https://github.com/stdlib-js/stdlib/pull/13780) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f54e568`](https://github.com/stdlib-js/stdlib/commit/f54e5686a93b352fac88b5e1c2c372ab1daa81b6) - **docs:** update examples and add section headings [(#13198)](https://github.com/stdlib-js/stdlib/pull/13198) _(by Philipp Burckhardt, Athan Reines)_
 -   [`2eab69a`](https://github.com/stdlib-js/stdlib/commit/2eab69aeaa1aa3101ed335959e471177432904e7) - **chore:** fix JavaScript lint errors [(#13278)](https://github.com/stdlib-js/stdlib/pull/13278) _(by TrivCodez)_
@@ -40,12 +41,13 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Akanksha Kumari
 -   Athan Reines
 -   Philipp Burckhardt
 -   TrivCodez
+-   Ujjwal Verma
 
 </section>
 
