@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-11)
+## Unreleased (2026-09-15)
 
 <section class="issues">
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#13070](https://github.com/stdlib-js/stdlib/issues/13070), [#13252](https://github.com/stdlib-js/stdlib/issues/13252), [#13273](https://github.com/stdlib-js/stdlib/issues/13273)
+[#13070](https://github.com/stdlib-js/stdlib/issues/13070), [#13252](https://github.com/stdlib-js/stdlib/issues/13252), [#13273](https://github.com/stdlib-js/stdlib/issues/13273), [#14949](https://github.com/stdlib-js/stdlib/issues/14949)
 
 </section>
 
@@ -24,6 +24,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`dffacef`](https://github.com/stdlib-js/stdlib/commit/dffacef15d8e51612737d3de18021cecab466ccf) - **chore:** fix JavaScript lint error [(#14953)](https://github.com/stdlib-js/stdlib/pull/14953) _(by wofiporia)_
 -   [`e25377a`](https://github.com/stdlib-js/stdlib/commit/e25377ad84f82175e4d388f209c3fe4e77a53b54) - **chore:** fix JavaScript lint errors [(#13259)](https://github.com/stdlib-js/stdlib/pull/13259) _(by Ujjwal Verma, Athan Reines)_
 -   [`be0b1f5`](https://github.com/stdlib-js/stdlib/commit/be0b1f501a4af5546f7ff6ee979585e22bdd56a6) - **chore:** clean-up [(#13780)](https://github.com/stdlib-js/stdlib/pull/13780) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f54e568`](https://github.com/stdlib-js/stdlib/commit/f54e5686a93b352fac88b5e1c2c372ab1daa81b6) - **docs:** update examples and add section headings [(#13198)](https://github.com/stdlib-js/stdlib/pull/13198) _(by Philipp Burckhardt, Athan Reines)_
@@ -41,13 +42,14 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Akanksha Kumari
 -   Athan Reines
 -   Philipp Burckhardt
 -   TrivCodez
 -   Ujjwal Verma
+-   wofiporia
 
 </section>
 
